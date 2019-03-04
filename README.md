@@ -1,4 +1,3 @@
-# twitter-dataset
 # twitter dataset
 - This data set is collected for a PhD thesis work named "User Modeling On Microblogging Websites"
 - Twitter  Streaming  API  has  been  used  to  collect  live  tweets  of  users  between November, 4th 2015 and January 12, 2016

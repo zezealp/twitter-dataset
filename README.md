@@ -1,14 +1,14 @@
 # twitter dataset
 - This data set is collected for a PhD thesis work named "User Modeling On Microblogging Websites"
 - Twitter  Streaming  API  has  been  used  to  collect  live  tweets  of  users  between November, 4th 2015 and January 12, 2016
-- I contains 177K users and 37M tweets. 
+- It contains 177K users and 37M tweets. 
 - This data is used for research on identifying topical authorities on Twitter [1, 2]
-- Each tweet is assigned with zero, one or many topics (See example below).  
+- Each tweet is assigned with zero, one or many topics (See example below). Read references for more information.
 - Data is dumped from MongoDB 
-- Uset and Twitter Ids are anonymized in the data to comply with the Twitter privacy Policy
-- For same reason tweet texts are also removed.
+- User and Twitter Ids are anonymized in the data to comply with the Twitter privacy Policy
+- For same reason tweet texts were also removed.
 - There are three collections. users, tweets and network.
-- tweets collection is split into chunks of 4M tweets to avoid size complaints of GitHub
+- Tweets collection is split into chunks of 4M tweets to avoid size complaints of GitHub
 - below is a sample document from user_anonymized collection
 > db.users_anonymized.findOne()
 {

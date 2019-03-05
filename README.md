@@ -8,7 +8,7 @@
 - User and Twitter Ids are anonymized in the data to comply with the Twitter privacy Policy
 - For same reason tweet texts were also removed.
 - There are three collections. users, tweets and network.
-- Tweets collection is split into chunks using 'split' command. They need to be merged by 'cat' command prior to being restored (i.e. cat tweets* > tweets.anonymized.bson.gz)
+- Tweets collection is split into chunks using 'split' command. They need to be merged by 'cat' command prior to being restored (i.e. cat tweets* > tweets_anonymized.bson.gz)
 - below is a sample document from user_anonymized collection
 > db.users_anonymized.findOne()
 {

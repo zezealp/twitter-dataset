@@ -44,6 +44,7 @@
 - below is a sample document from network_anonymized collection
 
 db.network_anonymized.findOne()
+
 {
         "_id" : "3639",
         "followers" : [
